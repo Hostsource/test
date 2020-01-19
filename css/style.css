@@ -82,13 +82,14 @@ nav {
 }
 
 .navbar-logo {
-    height: 100%;
+    height: 60px;
 }
 
 .navbar-link {
     font-size: 1.3em;
     color: var(--white);
     text-decoration: none !important;
+    font-family: 'Luckiest Guy', 'Open Sans', sans-serif;
 }
 
 .navbar-link:hover {
@@ -115,6 +116,8 @@ nav {
     padding-right: 25px;
     border-radius: 15px;
     text-decoration: none !important;
+    font-family: 'Summer Of Love', 'Open Sans', sans-serif;
+    font-size: 1.3em;
 }
 
 .navbar-btn:hover {
@@ -165,6 +168,10 @@ nav {
     color: var(--white);
     margin-top: 8px;
     margin-bottom: 10px;
+}
+
+#header-mobile-bg {
+    display: none;
 }
 
 .section {
@@ -239,6 +246,7 @@ nav {
 .show-card h5 {
     color: var(--light);
     font-size: 1rem;
+    font-family: 'Luckiest Guy', 'Open Sans', sans-serif;
 }
 
 .show-card p {
@@ -281,7 +289,7 @@ nav {
 
 .contact-btn i {
     font-size: 3em;
-    color: var(--white);
+    color: var(--dark);
 }
 
 .contact-btn:hover {
@@ -359,14 +367,12 @@ footer p {
         display: none;
     }
 
-    #header-content {
-        background-image: url("../assets/img/whiteBannerOnly.svg");
-        background-repeat: no-repeat;
-        background-position: center;
+    #header-mobile-bg {
+        display: block;
     }
 
     #header-down-arrow {
-        bottom: 20%;
+        bottom: 5%;
     }
 
     #header-down-arrow i {
