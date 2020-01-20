@@ -74,10 +74,8 @@
             </nav>
             
             <div id="header-content">
-                <img id="header-mobile-bg" src="assets/img/whiteBannerOnly.svg" alt="Berlinerfunk" height="100%" width="100%">
                 <div id="header-header">
-                    <img src="assets/img/bg.jpeg" alt="Berlinerfunk">
-                    <h1>Berlinerfunk</h1>
+                    <img src="assets/img/centerBannerWhite.svg" alt="Berlinerfunk">
                 </div>
                 <a href="#about" id="header-down-arrow"><i class="fa fa-chevron-down"></i></a>
             </div>
@@ -89,7 +87,32 @@
                 <br>
                 <br>
                 <h2>About</h2>
-                <img src="assets/img/bg.jpeg" alt="Berlinerfunk">
+                <div id="aboutCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#aboutCarouse" data-slide-to="0" class="active"></li>
+                        <li data-target="#aboutCarouse" data-slide-to="1"></li>
+                        <li data-target="#aboutCarouse" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/bg.jpg" class="d-block w-100" alt="Berlinerfunk">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/bg1.jpg" class="d-block w-100" alt="Berlinerfunk">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/bg2.jpg" class="d-block w-100" alt="Berlinerfunk">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#aboutCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only"><i class="fa fa-chevron-left"></i></span>
+                    </a>
+                    <a class="carousel-control-next" href="#aboutCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only"><i class="fa fa-chevron-right"></i></span>
+                    </a>
+                </div>
                 <p><strong>Lorem ipsum dolor sit amet,</strong> consectetur adipiscing elit. Duis suscipit ipsum purus, eu ultrices risus malesuada eu. Fusce rhoncus ornare magna sed rhoncus. Nulla libero tellus, sodales nec tempus ut, aliquet quis ipsum. Nunc ac leo rutrum, elementum enim eget, elementum velit.</p>
             </div>
             
@@ -120,14 +143,14 @@
                 </div>
             </div>
             
-            <div class="section" id="#book-us">
+            <div class="section" id="book-us">
                 <br>
                 <br>
                 <br>
                 <h2>Book Us</h2>
                 <div id="book-us-content" class="row">
                     <div class="col-md-5 col-sm-12">
-                        <h3>Book us for a show</h3>
+                        <h3>Book us</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
                     <div class="col-md-7 col-sm-12">
@@ -142,7 +165,7 @@
                             <br>
                             <label>Date of the event</label>
                             <label>
-                                <input type="date" name="date" required>
+                                <input placeholder="Date..." name="date" onfocus="(this.type = 'date')"  required>
                             </label>
                             <br>
                             <label>Other information/request</label>
@@ -163,10 +186,10 @@
                 <h2>Contact</h2>
                 <div id="contact-content">
                     <div class="row">
-                        <a href="https://instagram.com/berlinerfunk/" class="col-12 contact-btn">
+                        <a href="https://instagram.com/berlinerfunk/" target="_blank" class="col-12 contact-btn">
                             <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="https://facebook.com/berlinerfunk" class="col-12 contact-btn">
+                        <a href="https://facebook.com/berlinerfunk" target="_blank" class="col-12 contact-btn">
                             <i class="fa fa-facebook"></i>
                         </a>
                         <a href="mailto:contact@berlinerfunk.fi" class="col-12 contact-btn">
