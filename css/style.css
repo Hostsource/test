@@ -11,7 +11,7 @@
     --light: #bbb;
     --dark: #1f1f1f;
     --dark-hover: #2d2d2d;
-    --really-dark: #0f0f0f;
+    --really-dark: #1a1a1a;
 }
 
 * {
@@ -109,7 +109,7 @@ nav {
 
 .navbar-btn {
     background-color: var(--accent);
-    color: var(--dark);
+    color: var(--black);
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 25px;
@@ -117,7 +117,7 @@ nav {
     border-radius: 15px;
     text-decoration: none !important;
     font-family: 'Summer Of Love', 'Open Sans', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .navbar-btn:hover {
@@ -266,6 +266,74 @@ nav {
 .show-card h3:hover {
     color: var(--accent-hover);
 }
+
+#book-us-content {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: var(--really-dark);
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+#book-us-content .col-md-5 {
+    margin-bottom: 30px;
+    border-bottom: 3px solid var(--accent);
+    border-radius: 5px;
+}
+
+#book-us-content h3 {
+    font-size: 5em;
+    color: var(--white);
+}
+
+#book-us-content p {
+    color: var(--white);
+    width: 90%;
+}
+
+#booking-disclaimer {
+    color: var(--light) !important;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#booking-disclaimer a {
+    color: var(--accent-hover);
+}
+
+#book-us-content label {
+    font-family: 'Luckiest Guy', 'Open Sans', sans-serif;
+    font-size: 1.5em;
+}
+
+#book-us-content label, #book-us-content input, #book-us-content textarea {
+    color: var(--white);
+    padding: 10px;
+    width: 100%;
+}
+
+#book-us-content input, #book-us-content textarea {
+    padding: 2px;
+    color: var(--black);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#booking-send-btn {
+    border-radius: 15px;
+    background-color: var(--accent);
+    border: none;
+    font-family: 'Luckiest Guy', 'Open Sans', sans-serif !important;
+    padding: 10px !important;
+    font-size: 1.6em;
+}
+
+#booking-send-btn:hover {
+    background-color: var(--black);
+    color: var(--accent);
+}
+
 
 #contact {
     min-height: 90vh;
