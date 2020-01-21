@@ -9,9 +9,9 @@
     --black: #000000;
     --white: #eee;
     --light: #bbb;
-    --dark: #1f1f1f;
+    --dark: #0f0f0f;
     --dark-hover: #2d2d2d;
-    --really-dark: #1a1a1a;
+    --really-dark: #0d0d0d;
 }
 
 * {
