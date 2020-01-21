@@ -80,7 +80,7 @@
                 <div id="header-header">
                     <img src="assets/img/centerBannerWhite.svg" alt="Berlinerfunk">
                 </div>
-                <a href="#about" id="header-down-arrow"><i class="fa fa-chevron-down"></i></a>
+                <a href="#about" id="header-down-arrow" aria-label="Scroll down"><i class="fa fa-chevron-down"></i></a>
             </div>
         </header>
         
@@ -108,8 +108,8 @@
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#aboutCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only"><i class="fa fa-chevron-left"></i></span>
+                        <span aria-label="Previous" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span aria-label="Next" class="sr-only"><i class="fa fa-chevron-left"></i></span>
                     </a>
                     <a class="carousel-control-next" href="#aboutCarousel" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -158,21 +158,18 @@
                     </div>
                     <div class="col-md-7 col-sm-12">
                         <form action="https://formspree.io/mqkpwgka" method="POST">
-                            <label>Your contact information</label>
-                            <label>
+                            <label>Name
                                 <input type="name" placeholder="Name..." name="name" required>
                             </label>
-                            <label>
+                            <label>Email
                                 <input type="email" placeholder="Email..." name="email" required>
                             </label>
                             <br>
-                            <label>Date of the event</label>
-                            <label>
+                            <label>Date of the event
                                 <input placeholder="Date..." name="date" onfocus="(this.type = 'date')"  required>
                             </label>
                             <br>
-                            <label>Other information/request</label>
-                            <label>
+                            <label>Other information/request
                                 <textarea placeholder="stage size, payment, PA-system, etc..." rows="5" cols="30" name="other"></textarea>
                             </label>
                             <input id="booking-send-btn" type="submit" value="Send booking request">
@@ -189,13 +186,13 @@
                 <h2>Contact</h2>
                 <div id="contact-content">
                     <div class="row">
-                        <a href="https://instagram.com/berlinerfunk/" target="_blank" class="col-12 contact-btn">
+                        <a href="https://instagram.com/berlinerfunk/" target="_blank" rel="noopener" aria-label="Instagram" class="col-12 contact-btn">
                             <i class="fa fa-instagram"></i>
                         </a>
-                        <a href="https://www.facebook.com/events/s/berlinerfunk-konsert/3291852490867634/" target="_blank" class="col-12 contact-btn">
+                        <a href="https://www.facebook.com/events/s/berlinerfunk-konsert/3291852490867634/" target="_blank" rel="noopener" aria-label="Facebook" class="col-12 contact-btn">
                             <i class="fa fa-facebook"></i>
                         </a>
-                        <a href="mailto:contact@berlinerfunk.fi" class="col-12 contact-btn">
+                        <a href="mailto:contact@berlinerfunk.fi" aria-label="Email" class="col-12 contact-btn">
                             <i class="fa fa-envelope"></i>
                         </a>
                     </div>
