@@ -38,13 +38,13 @@ h1, h2, h3 {
 
 .btn-primary {
     background-color: var(--accent);
-    border: none;
+    border: none !important;
     color: var(--dark);
 }
 
-.btn-primary:hover {
-    background-color: var(--dark);
-    color: var(--accent);
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: var(--dark) !important;
+    color: var(--accent) !important;
 }
 
 header {
@@ -402,6 +402,14 @@ footer p {
     width: 100%;
     vertical-align: middle;
     color: var(--light);
+}
+
+footer a {
+    color: var(--accent);
+}
+
+footer a:hover {
+    color: var(--accent-hover);
 }
 
 #terms {
