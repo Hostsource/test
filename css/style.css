@@ -36,6 +36,17 @@ h1, h2, h3 {
     margin-right: auto;
 }
 
+.btn-primary {
+    background-color: var(--accent);
+    border: none;
+    color: var(--dark);
+}
+
+.btn-primary:hover {
+    background-color: var(--dark);
+    color: var(--accent);
+}
+
 header {
     background-image: url('../assets/img/pattern.jpg');
     background-position: center;
@@ -200,6 +211,16 @@ nav {
     margin-right: auto;
 }
 
+#about p strong {
+    font-size: 1.22em !important;
+}
+
+#about-instruments {
+    font-size: 1em !important;
+    color: var(--light) !important;
+    text-align: center !important;
+}
+
 .shows-row {
     margin-left: auto;
     margin-right: auto;
@@ -230,6 +251,16 @@ nav {
     color: var(--light);
     font-size: 1rem;
     font-family: 'Luckiest Guy', 'Open Sans', sans-serif;
+}
+
+.show-card h5 a {
+    color: var(--white) !important;
+    font-weight: bold;
+}
+
+.show-card h5 a:hover {
+    text-decoration: none !important;
+    color: var(--accent) !important;
 }
 
 .show-card p {
@@ -384,9 +415,8 @@ footer p {
     color: var(--accent);
 }
 
-#terms li {
+#terms p {
     color: var(--white);
-    list-style-type: none;
 }
 
 @media screen and (max-width: 1100px) {
